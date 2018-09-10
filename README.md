@@ -16,7 +16,7 @@ $ # Check ip configuration for this machine. For me it is 192.168.99.100
 $ # this ip is required below
 $ docker-machine env default
 
-$ # Copy environment information
+$ # Copy environment information, change it if required.
 $ cp .env.sample .env
 $ # Edit .env, replacing 192.168.99.100 with docker machine ip, if needed
 
